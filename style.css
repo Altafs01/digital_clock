@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* html{
+    background-color: grey;
+} */
+
+body{
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font: bold 12px Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.clock {
+    border: 1px solid;
+    border-color: rgb(red, green, blue);
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: #222222;
+    gap: 10px; 
+    margin-top: 50%;
+}
+
+
+#date{
+    font-size: 20px !important;
+    text-align: center;
+}
+
+.clock ul{
+    list-style: none;
+    display: flex;
+    font-size: 90px;
+    gap: 15px;
+}
